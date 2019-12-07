@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/austinm21/Finalproject0.1/blob/master/Fratbot\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "U32ae-2ZCeLP",
+        "colab_type": "code",
+        "outputId": "9bfb24f9-8646-4ec9-c558-bff7a56e714d",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 136
+        }
+      },
+      "source": [
+        "print(\"What's goodie? Welcome to the Fratbot! Let's have a nice long talk. Respond in all lowercase or you're soft.\")\n",
+        "\n",
+        "greeting = (input(\"FRATBOT: How's it hangin?\")) \n",
+        "if greeting == \"what up\":\n",
+        "  print(\"FRATBOT: Not much Scooter\")\n",
+        "else:\n",
+        "  print(\"FRATBOT: Nice, I'm just out here chillin\") \n",
+        "\n",
+        "\n",
+        "question_1 = (input(\"FRATBOT: so are you a guy or a girl?\")) \n",
+        "if question_1 == (\"girl\") :\n",
+        "  print(\"FRATBOT: Oh really, can I get that snap (y/n)\")\n",
+        "else:\n",
+        "  print(\"FRATBOT: Well are ya drinkin or not?\") \n",
+        "\n",
+        "\n",
+        "question_1 = (input(\"FRATBOT: OH REALLY???? thats awesome, what are you doing later tonight\")) \n",
+        "if question_1 == (\"drinkin\") :\n",
+        "  print(\"FRATBOT: Now that's what I'm talking about\")\n",
+        "else:\n",
+        "  print(\"FRATBOT: That's probably the softest thing I have ever heard\") \n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "What's goodie? Welcome to the Fratbot! Let's have a nice long talk. Respond in all lowercase or you're soft.\n",
+            "FRATBOT: How's it hangin?left\n",
+            "FRATBOT: Nice, I'm just out here chillin\n",
+            "FRATBOT: so are you a guy or a girl?guy\n",
+            "FRATBOT: Well are ya drinkin or not?\n",
+            "FRATBOT: OH REALLY???? thats awesome, what are you doing later tonightdrinkin\n",
+            "FRATBOT: Now that's what I'm talking about\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
